@@ -15,16 +15,16 @@ code {
 .App {
   padding-inline: 10%;
   background-color: #1888c7;
-  
 }
 .main-div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
-
+.card-compenet {
+  margin-top: 10%;
+}
 iframe {
   border: none;
 }
@@ -35,7 +35,6 @@ iframe {
   border: 5px;
   background-color: aliceblue;
   border-radius: 5%;
-  
 }
 
 .img-section {
@@ -75,44 +74,48 @@ iframe {
 }
 
 /*  */
-.input-container{
+.input-container {
   position: relative;
-  width:900px;
   margin: 20px auto;
-  
+  width: 80vw;
+}
+.navbar {
+  position: fixed;
 }
 .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-  background-color: #1888c7 ;
+  background-color: #1888c7;
   border: 2px white solid;
   border-radius: 10px;
-  font-weight:bolder;
+  font-weight: bolder;
   font-size: large;
   color: antiquewhite;
 }
 
-.input-container button{
-    position: absolute;
-    width: 10%;
-    background-color: transparent;
-    border:none;
-    cursor: pointer;
-    top: 0;
-    right: -35px;
-    padding: 13px ;
+.input-container button {
+  position: absolute;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 13px;
 }
 
-@media screen and (max-width : 1200px){
+@media screen and (max-width: 1200px) {
   .App {
     padding-inline: 5%;
   }
 }
 
-@media screen and (max-width : 768px){
+@media screen and (max-width: 768px) {
   .App {
     padding-inline: 2%;
   }
+  .card-compenet {
+    margin: 15%;
+  }
 }
-
