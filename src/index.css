@@ -88,7 +88,9 @@ iframe {
   background-color: #1888c7 ;
   border: 2px white solid;
   border-radius: 10px;
-  font-weight: 500;
+  font-weight:bolder;
+  font-size: large;
+  color: antiquewhite;
 }
 
 .input-container button{
