@@ -17,28 +17,34 @@ code {
   background-color: #1888c7;
 }
 .main-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
 }
 .card-compenet {
   margin-top: 10%;
 }
+.card-compenet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+
 iframe {
   border: none;
 }
 
 .card-item {
-  width: 250px;
-  height: 350px;
-  border: 5px;
+  height: 100%;
+
   background-color: aliceblue;
+
   border-radius: 5%;
 }
 
 .img-section {
-  height: 70%;
+  height: 75%;
   overflow: hidden;
 }
 .img-section img {
@@ -47,21 +53,17 @@ iframe {
   border-radius: 5% 5% 0 0;
 }
 .title {
+  height: 25%;
+  padding-inline: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
-  padding-inline: 10px;
   font-size: 15px;
+  font-weight: bold;
+
+  overflow: hidden;
 }
 
-.card-compenet {
-  padding-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-}
 .btn-load {
   margin: 10px;
   padding: 10px;
