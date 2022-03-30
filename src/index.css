@@ -86,7 +86,7 @@ iframe {
   width: 100%;
   padding: 10px;
   outline: none;
-  background-color: #1888c7;
+  background-color: #67b2dd;
   border: 2px white solid;
   border-radius: 10px;
   font-weight: bolder;
@@ -101,7 +101,7 @@ iframe {
   border: none;
   cursor: pointer;
   top: 0;
-  right: 0;
+  right: -20px;
   padding: 13px;
 }
 
@@ -113,7 +113,7 @@ iframe {
 
 @media screen and (max-width: 768px) {
   .App {
-    padding-inline: 2%;
+    padding-inline: 3%;
   }
   .card-compenet {
     margin: 15%;
